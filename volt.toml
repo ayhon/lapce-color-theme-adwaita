@@ -1,0 +1,8 @@
+name = "adwaita"
+version = "0.1.0"
+display-name = "Adwaita"
+author = "ayhon"
+description = "Adwaita colors for GNOME"
+icon = "icon.png"
+repository = "https://github.com/ayhon/lapce-color-theme-adwaita"
+color-themes = ["adwaita-dark.toml","adwaita-light.toml"]

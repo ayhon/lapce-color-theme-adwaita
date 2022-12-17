@@ -1,0 +1,152 @@
+
+# This theme was generated automagically with a python script. For any official
+# modifications of the theme, please modify the python file
+
+[color-theme]
+name                              = "Adwaita light"
+
+[color-theme.base]
+white                             = "#c0bfbc"
+black                             = "#241f31"
+grey                              = "#77767b"
+blue                              = "#1c71d8"
+red                               = "#c01c28"
+yellow                            = "#f5c211"
+orange                            = "#e66100"
+green                             = "#2ec27e"
+purple                            = "#813d9c"
+cyan                              = "#56B6C2" # Unchanged
+magenta                           = "#C678DD" # Unchanged
+
+[color-theme.syntax]
+"comment"                         = "#ABB0B6"
+"constant"                        = "#A37ACC"
+"type"                            = "#E7C547"
+"typeAlias"                       = "#E7C547"
+"number"                          = "#E7C547"
+"enum"                            = "#36A3D9"
+"struct"                          = "#36A3D9"
+"structure"                       = "#36A3D9"
+"interface"                       = "#36A3D9"
+"attribute"                       = "#E7C547"
+"constructor"                     = "#E7C547"
+"function"                        = "#F29718"
+"method"                          = "#E7C547"
+"function.method"                 = "#36A3D9"
+"keyword"                         = "#FF7733"
+"selfKeyword"                     = "#A37ACC"
+"field"                           = "#F07178"
+"property"                        = "#E6B673"
+"enumMember"                      = "#F07178"
+"enum-member"                     = "#F07178"
+"string"                          = "#86B300"
+"builtinType"                     = "#E6B673"
+"escape"                          = "#4CBF99"
+"string.escape"                   = "#86B300"
+"embedded"                        = "#4CBF99"
+"variable.other.member"           = "#F07178"
+
+[color-theme.ui]
+"activity.background"             = "#ed333b" # Unknown
+"activity.current"                = "#1c71d8"
+
+"completion.background"           = "#ffffff"
+"completion.current"              = "#fafafa"
+
+"editor.background"               = "#ffffff" #"#242936"
+"editor.foreground"               = "#000000cc"
+"editor.caret"                    = "#1c71d8"
+"editor.current_line"             = "#ebebeb"
+"editor.dim"                      = "#5e5c64" # "#5C6370" # Don't know what it does yet
+"editor.drag_drop_background"     = "#3584e455"
+"editor.drag_drop_tab_background" = "#3584e455"
+"editor.sticky_header_background" = "#fafafa"
+"editor.focus"                    = "#fafafa" # "#CCCCCC"
+"editor.indent_guide"             = "#00000011"
+"editor.link"                     = "#1c71d8"
+"editor.selection"                = "#3584e440"
+"editor.visible_whitespace"       = "#fafafa" # "#5C6370"
+
+"error_lens.error.background"     = "#e01b2480"
+"error_lens.error.foreground"     = "#ffffff"
+
+"error_lens.other.background"     = "#5C637020"
+"error_lens.other.foreground"     = "#5C6370"
+
+"error_lens.warning.background"   = "#e5a50a80"
+"error_lens.warning.foreground"   = "#000000cc"
+
+"hover.background"                = "#ffffff"
+
+"inlay_hint.background"           = "#ffffff80"
+"inlay_hint.foreground"           = "#000000cc"
+
+"lapce.border"                    = "#00000011"
+"lapce.button.primary.background" = "#3584e4"
+"lapce.button.primary.foreground" = "#ffffff"
+"lapce.dropdown_shadow"           = "#00000011"
+"lapce.error"                     = "#c01c28"
+"lapce.icon.active"               = "#1c71d8"
+"lapce.icon.inactive"             = "#000000cc"
+"lapce.plugin.author"             = "#000000cc"
+"lapce.plugin.description"        = "#000000cc"
+"lapce.plugin.name"               = "#000000cc"
+"lapce.remote.connected"          = "#26a269"
+"lapce.remote.connecting"         = "#ae7b03"
+"lapce.remote.disconnected"       = "#c01c28"
+"lapce.remote.local"              = "#fafafa"
+"lapce.scroll_bar"                = "#fafafa"
+"lapce.tab.inactive.background"   = "#fafafa"
+"lapce.tab.inactive.foreground"   = "#000000cc"
+"lapce.tab.inactive.underline"    = "#00000011"
+"lapce.tab.active.background"     = "#3584e420"
+"lapce.tab.active.foreground"     = "#000000cc"
+"lapce.tab.active.underline"      = "#1c71d8"
+"lapce.tab.separator"             = "#00000011"
+"lapce.warn"                      = "#ae7b03"
+
+"markdown.blockquote"             = "#898989"
+
+"palette.background"              = "#ffffff"
+"palette.foreground"              = "#000000cc"
+"palette.current.background"      = "#3584e420"
+"palette.current.foreground"      = "#000000cc"
+
+"panel.background"                = "#ffffff"
+"panel.current.background"        = "#3584e440"
+"panel.current.foreground"        = "#ffffff"
+"panel.hovered.background"        = "#3584e421"
+"panel.hovered.foreground"        = "#ffffff"
+"panel.foreground"                = "#000000cc"
+
+"source_control.added"            = "#2ec27e32"
+"source_control.modified"         = "#1c71d832"
+"source_control.removed"          = "#c01c2832"
+
+"status.background"               = "#ffffff"
+"status.foreground"               = "#000000cc"
+
+"status.modal.insert"             = "$red"
+"status.modal.normal"             = "$blue"
+"status.modal.terminal"           = "$purple"
+"status.modal.visual"             = "$yellow"
+
+"terminal.background"             = "#fafafa"
+"terminal.black"                  = "$black"
+"terminal.blue"                   = "$blue"
+"terminal.bright_black"           = "#545862"
+"terminal.bright_blue"            = "$blue"
+"terminal.bright_cyan"            = "$cyan"
+"terminal.bright_green"           = "$green"
+"terminal.bright_magenta"         = "$magenta"
+"terminal.bright_red"             = "$red"
+"terminal.bright_white"           = "#C8CCD4"
+"terminal.bright_yellow"          = "$yellow"
+"terminal.cursor"                 = "$white"
+"terminal.cyan"                   = "$cyan"
+"terminal.foreground"             = "$white"
+"terminal.green"                  = "$green"
+"terminal.magenta"                = "$magenta"
+"terminal.red"                    = "$red"
+"terminal.white"                  = "$white"
+"terminal.yellow"                 = "$yellow"
