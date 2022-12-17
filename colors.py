@@ -5,17 +5,17 @@ colorscheme = {
 	"accent_fg_color" :          { "light": "#ffffff", "dark": "#ffffff" },
 
 	# Destructive colors
-	"destructive_color"	 :     { "light": "#c01c28", "dark": "#ff7b63" },
+	"destructive_color"	   :     { "light": "#c01c28", "dark": "#ff7b63" },
 	"destructive_bg_color" :     { "light": "#e01b24", "dark": "#c01c28" },
 	"destructive_fg_color" :     { "light": "#ffffff", "dark": "#ffffff" },
 
 	# Success colors
-	"success_color"	 :         { "light": "#26a269", "dark": "#8ff0a4" },
+	"success_color"	   :         { "light": "#26a269", "dark": "#8ff0a4" },
 	"success_bg_color" :         { "light": "#2ec27e", "dark": "#26a269" },
 	"success_fg_color" :         { "light": "#ffffff", "dark": "#ffffff" },
 
 	# Warning colors
-	"warning_color"	:          { "light": "#ae7b03", "dark": "#f8e45c" },
+	"warning_color"	    :      { "light": "#ae7b03", "dark": "#f8e45c" },
 	"warning_bg_color"	:      { "light": "#e5a50a", "dark": "#cd9309" },
 	"warning_fg_color"	:      { "light": "#000000cc", "dark": "#000000cc" },
 
@@ -198,17 +198,17 @@ magenta                           = "#C678DD" # Unchanged
 
 "editor.background"               = "{color("view_bg_color")}" #"#242936"
 "editor.foreground"               = "{color('view_fg_color')}"
-"editor.caret"                    = "{color("accent_color")}"
 "editor.current_line"             = "{color("headerbar_bg_color")}"
-"editor.dim"                      = "{color('dark_2','light_4')}" # "#5C6370" # Don't know what it does yet
+"editor.caret"                    = "{color("accent_color")}"
+"editor.link"                     = "{color('accent_color')}"
+"editor.selection"                = "{color('accent_bg_color')}40"
+"editor.dim"                      = "{color('dark_2','light_4')}"
 "editor.drag_drop_background"     = "{color('accent_bg_color')}55"
 "editor.drag_drop_tab_background" = "{color('accent_bg_color')}55"
 "editor.sticky_header_background" = "{color('window_bg_color')}"
-"editor.focus"                    = "{color('window_fg_color')}" # "#CCCCCC"
+"editor.focus"                    = "{color('window_fg_color')}"
 "editor.indent_guide"             = "{color('card_shade_color')}"
-"editor.link"                     = "{color('accent_color')}"
-"editor.selection"                = "{color('accent_bg_color')}40"
-"editor.visible_whitespace"       = "{color('window_bg_color')}" # "#5C6370"
+"editor.visible_whitespace"       = "{color('window_bg_color')}"
 
 "error_lens.error.background"     = "{color("error_bg_color")}80"
 "error_lens.error.foreground"     = "{color("error_fg_color")}"
@@ -221,23 +221,27 @@ magenta                           = "#C678DD" # Unchanged
 
 "hover.background"                = "{color("view_bg_color")}"
 
-"inlay_hint.background"           = "{color('popover_bg_color')}80"
-"inlay_hint.foreground"           = "{color('popover_fg_color')}"
+"inlay_hint.background"           = "{color('accent_bg_color')}10"
+"inlay_hint.foreground"           = "{synt('comment')}"
 
-"lapce.border"                    = "{color("card_shade_color")}"
+"lapce.border"                    = "#{'dcdcdc' if variant == 'light' else '454545'}" #"{color("card_shade_color")}"
 "lapce.button.primary.background" = "{color("accent_bg_color")}"
 "lapce.button.primary.foreground" = "{color("accent_fg_color")}"
 "lapce.dropdown_shadow"           = "{color('shade_color')}"
 "lapce.error"                     = "{color('error_color')}"
+
 "lapce.icon.active"               = "{color('accent_color')}"
 "lapce.icon.inactive"             = "{color('window_fg_color')}"
+
 "lapce.plugin.author"             = "{color('window_fg_color')}"
 "lapce.plugin.description"        = "{color('window_fg_color')}"
 "lapce.plugin.name"               = "{color('window_fg_color')}"
+
 "lapce.remote.connected"          = "{color('success_color')}"
 "lapce.remote.connecting"         = "{color('warning_color')}"
 "lapce.remote.disconnected"       = "{color('destructive_color')}"
 "lapce.remote.local"              = "{color('window_bg_color')}"
+
 "lapce.scroll_bar"                = "{color('dialog_bg_color')}"
 "lapce.tab.inactive.background"   = "{color('window_bg_color')}"
 "lapce.tab.inactive.foreground"   = "{color('window_fg_color')}"
@@ -255,7 +259,7 @@ magenta                           = "#C678DD" # Unchanged
 "palette.current.background"      = "{color('accent_bg_color')}20"
 "palette.current.foreground"      = "{color('popover_fg_color')}"
 
-"panel.background"                = "{color('view_bg_color')}"
+"panel.background"                = "{color('headerbar_bg_color')}"
 "panel.current.background"        = "{color('accent_bg_color')}40"
 "panel.current.foreground"        = "{color('accent_fg_color')}"
 "panel.hovered.background"        = "{color('accent_bg_color')}21"

@@ -55,17 +55,17 @@ magenta                           = "#C678DD" # Unchanged
 
 "editor.background"               = "#ffffff" #"#242936"
 "editor.foreground"               = "#000000cc"
-"editor.caret"                    = "#1c71d8"
 "editor.current_line"             = "#ebebeb"
-"editor.dim"                      = "#5e5c64" # "#5C6370" # Don't know what it does yet
+"editor.caret"                    = "#1c71d8"
+"editor.link"                     = "#1c71d8"
+"editor.selection"                = "#3584e440"
+"editor.dim"                      = "#5e5c64"
 "editor.drag_drop_background"     = "#3584e455"
 "editor.drag_drop_tab_background" = "#3584e455"
 "editor.sticky_header_background" = "#fafafa"
-"editor.focus"                    = "#000000cc" # "#CCCCCC"
+"editor.focus"                    = "#000000cc"
 "editor.indent_guide"             = "#00000011"
-"editor.link"                     = "#1c71d8"
-"editor.selection"                = "#3584e440"
-"editor.visible_whitespace"       = "#fafafa" # "#5C6370"
+"editor.visible_whitespace"       = "#fafafa"
 
 "error_lens.error.background"     = "#e01b2480"
 "error_lens.error.foreground"     = "#ffffff"
@@ -78,10 +78,10 @@ magenta                           = "#C678DD" # Unchanged
 
 "hover.background"                = "#ffffff"
 
-"inlay_hint.background"           = "#ffffff80"
-"inlay_hint.foreground"           = "#000000cc"
+"inlay_hint.background"           = "#3584e410"
+"inlay_hint.foreground"           = "#ABB0B6"
 
-"lapce.border"                    = "#00000011"
+"lapce.border"                    = "#dcdcdc" #"#00000011"
 "lapce.button.primary.background" = "#3584e4"
 "lapce.button.primary.foreground" = "#ffffff"
 "lapce.dropdown_shadow"           = "#00000011"
@@ -112,7 +112,7 @@ magenta                           = "#C678DD" # Unchanged
 "palette.current.background"      = "#3584e420"
 "palette.current.foreground"      = "#000000cc"
 
-"panel.background"                = "#ffffff"
+"panel.background"                = "#ebebeb"
 "panel.current.background"        = "#3584e440"
 "panel.current.foreground"        = "#ffffff"
 "panel.hovered.background"        = "#3584e421"
