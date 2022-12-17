@@ -133,35 +133,6 @@ syntax = {
     "variable.other.member": {'dark': "#F07178",  'light': "#F07178"}
 }
 
-# Defining vairables in the `color-themes.base` section of the {theme}.toml file should
-# work. Perhaps consider adding this as a feature and PR
-#
-#   fn resolve_color(
-#       colors: &IndexMap<String, String>,
-#       base: &ThemeBaseColor,
-#       default: Option<&HashMap<String, Color>>,
-#   ) -> HashMap<String, Color> {
-#       colors
-#           .iter()
-#           .map(|(name, hex)| {
-#               let color = if let Some(stripped) = hex.strip_prefix('$') {
-#                   base.get(stripped).cloned()
-#               } else {
-#                   Color::from_hex_str(hex).ok()
-#               };
-#   
-#               let color = color
-#                   .or_else(|| {
-#                       default.and_then(|default| default.get(name).cloned())
-#                   })
-#                   .unwrap_or(Color::rgb8(0, 0, 0));
-#   
-#               (name.to_string(), color)
-#           })
-#           .collect()
-#   }
-# Colors from https://github.com/GNOME/libadwaita/blob/d36716d035392f1d8a36da91044385c44d47d965/doc/named-colors.md
-
 for variant in ["light","dark"]:
     def color(name, dark = None):
         if dark and variant == 'dark':
