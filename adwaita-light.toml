@@ -59,7 +59,7 @@ magenta                           = "#C678DD" # Unchanged
 "editor.caret"                    = "#1c71d8"
 "editor.link"                     = "#1c71d8"
 "editor.selection"                = "#3584e440"
-"editor.dim"                      = "#5e5c64"
+"editor.dim"                      = "#3d3846"
 "editor.drag_drop_background"     = "#3584e455"
 "editor.drag_drop_tab_background" = "#3584e455"
 "editor.sticky_header_background" = "#fafafa"
@@ -86,15 +86,19 @@ magenta                           = "#C678DD" # Unchanged
 "lapce.button.primary.foreground" = "#ffffff"
 "lapce.dropdown_shadow"           = "#00000011"
 "lapce.error"                     = "#c01c28"
+
 "lapce.icon.active"               = "#1c71d8"
 "lapce.icon.inactive"             = "#000000cc"
+
 "lapce.plugin.author"             = "#000000cc"
 "lapce.plugin.description"        = "#000000cc"
 "lapce.plugin.name"               = "#000000cc"
-"lapce.remote.connected"          = "#26a269"
-"lapce.remote.connecting"         = "#ae7b03"
-"lapce.remote.disconnected"       = "#c01c28"
-"lapce.remote.local"              = "#fafafa"
+
+"lapce.remote.connected"          = "#2ec27e"
+"lapce.remote.connecting"         = "#e5a50a"
+"lapce.remote.disconnected"       = "#e01b24"
+"lapce.remote.local"              = "#3584e4"
+
 "lapce.scroll_bar"                = "#fafafa"
 "lapce.tab.inactive.background"   = "#fafafa"
 "lapce.tab.inactive.foreground"   = "#000000cc"
@@ -118,6 +122,7 @@ magenta                           = "#C678DD" # Unchanged
 "panel.hovered.background"        = "#3584e421"
 "panel.hovered.foreground"        = "#ffffff"
 "panel.foreground"                = "#000000cc"
+"panel.foreground.dim"            = "#5e5c64"
 
 "source_control.added"            = "#2ec27e32"
 "source_control.modified"         = "#1c71d832"

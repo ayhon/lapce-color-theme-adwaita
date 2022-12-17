@@ -202,7 +202,7 @@ magenta                           = "#C678DD" # Unchanged
 "editor.caret"                    = "{color("accent_color")}"
 "editor.link"                     = "{color('accent_color')}"
 "editor.selection"                = "{color('accent_bg_color')}40"
-"editor.dim"                      = "{color('dark_2','light_4')}"
+"editor.dim"                      = "{color('dark_3','light_3')}"
 "editor.drag_drop_background"     = "{color('accent_bg_color')}55"
 "editor.drag_drop_tab_background" = "{color('accent_bg_color')}55"
 "editor.sticky_header_background" = "{color('window_bg_color')}"
@@ -237,10 +237,10 @@ magenta                           = "#C678DD" # Unchanged
 "lapce.plugin.description"        = "{color('window_fg_color')}"
 "lapce.plugin.name"               = "{color('window_fg_color')}"
 
-"lapce.remote.connected"          = "{color('success_color')}"
-"lapce.remote.connecting"         = "{color('warning_color')}"
-"lapce.remote.disconnected"       = "{color('destructive_color')}"
-"lapce.remote.local"              = "{color('window_bg_color')}"
+"lapce.remote.connected"          = "{color('success_bg_color')}"
+"lapce.remote.connecting"         = "{color('warning_bg_color')}"
+"lapce.remote.disconnected"       = "{color('destructive_bg_color')}"
+"lapce.remote.local"              = "{color('accent_bg_color')}"
 
 "lapce.scroll_bar"                = "{color('dialog_bg_color')}"
 "lapce.tab.inactive.background"   = "{color('window_bg_color')}"
@@ -265,6 +265,7 @@ magenta                           = "#C678DD" # Unchanged
 "panel.hovered.background"        = "{color('accent_bg_color')}21"
 "panel.hovered.foreground"        = "{color('accent_fg_color')}"
 "panel.foreground"                = "{color('view_fg_color')}"
+"panel.foreground.dim"            = "{color('dark_2','light_4')}"
 
 "source_control.added"            = "{color('green_4','green_2')}32"
 "source_control.modified"         = "{color('blue_4','blue_2')}32"
